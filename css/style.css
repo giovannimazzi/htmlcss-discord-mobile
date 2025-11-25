@@ -11,9 +11,17 @@ img {
   display: block;
 }
 
+body {
+  margin: 0 auto;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
 .header {
   text-align: center;
-  padding: 40px 20px;
+  padding: 40px 80px;
 }
 
 header h1 {
@@ -26,11 +34,24 @@ header p {
   padding: 0 10px;
 }
 
-body {
-  margin: 0 auto;
-  background-image: url(../img/background.png);
-  background-repeat: no-repeat;
-  background-size: cover;
+.btn {
+  display: block;
+  padding: 14px 20px;
+  border-radius: 16px;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+/* Primo bottone: bianco */
+.download {
+  background: white;
+  color: black;
+}
+
+/* Secondo bottone: blu */
+.navigate {
+  background: #5865f2;
   color: white;
 }
 
