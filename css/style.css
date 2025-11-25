@@ -10,3 +10,42 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.header {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+header h1 {
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+header p {
+  margin-bottom: 30px;
+  padding: 0 10px;
+}
+
+body {
+  margin: 0 auto;
+  background-image: url(../img/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+/* // <weight>: Use a value from 100 to 1000
+// <uniquifier>: Use a unique and descriptive class name */
+
+.dm-sans-font {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.sigmar-regular {
+  font-family: "Sigmar", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
