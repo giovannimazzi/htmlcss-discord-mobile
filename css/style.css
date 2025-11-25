@@ -84,10 +84,10 @@ header p {
   margin-bottom: 20px;
 }
 
-.card figure img {
+/* .card figure img {
   border-radius: 20px;
   margin-bottom: 40px;
-}
+} */
 
 .post-tag {
   position: absolute;
@@ -97,6 +97,11 @@ header p {
   left: 50%;
 }
 
+.card video {
+  border-radius: 20px;
+  margin-bottom: 40px;
+  width: 100%;
+}
 /* // <weight>: Use a value from 100 to 1000
 // <uniquifier>: Use a unique and descriptive class name */
 
